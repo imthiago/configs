@@ -1,0 +1,41 @@
+[user]
+    name = "Thiago Oliveira"
+    email = "thiago@outlook.com.br"
+
+[core]
+    editor = "vim"
+    excludesfile = ~/.gitignore_global
+
+[push]
+    default = current
+
+[pull]
+    default = current
+
+[color]
+    ui = true
+
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = red
+
+[color "branch"]
+    current = white
+    remote = red
+
+[color "diff"]
+    meta = yellow
+    old = red
+    new = green
+
+[alias]
+    ci = !git add --all && git commit -m
+    ps = !git push
+    co = !git checkout
+    st = status -sb
+    sf = status --name-only
+    lg = log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr' --max-count=10
+    pl = !git pull origin
+[code]
+	editor = code --wait

@@ -1,0 +1,22 @@
+{
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontSize": 12,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontSize": 12,
+  "editor.fontFamily": "Fira Code",
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "typescript.preferences.quoteStyle": "single"
+}
